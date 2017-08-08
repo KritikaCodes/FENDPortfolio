@@ -1,31 +1,59 @@
-body{
-
-	font-family: 'Titillium Web', sans-serif;
+body {
+	font-family: "Titillium Web", sans-serif;
 	color: #2d3c49;
 	font-weight: 400;
 }
 
-.logo-img{
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: "FontAwesome", sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: "zocial", sans-serif;
+}
+
+.logo-img {
 	height: 100px;
 	float: left;
 }
 
-.text-thin{
+.text-thin {
 	font-weight: 300;
 }
 
-.text-light{
+.text-light {
 	color: #7d97ad;
 }
 
-.portfolio-logo{
+.portfolio-logo {
 	margin: 10px
 }
 
-.title-major{
+.title-major {
 	font-size: 60px;
 }
 
-.svg-image{
+.svg-image {
 	width: 100% \9;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+div#social {
+  line-height: 2em;
+}
+
+footer {
+  text-align: center;
+  font-size: 3em;
 }
