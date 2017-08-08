@@ -1,0 +1,31 @@
+body{
+
+	font-family: 'Titillium Web', sans-serif;
+	color: #2d3c49;
+	font-weight: 400;
+}
+
+.logo-img{
+	height: 100px;
+	float: left;
+}
+
+.text-thin{
+	font-weight: 300;
+}
+
+.text-light{
+	color: #7d97ad;
+}
+
+.portfolio-logo{
+	margin: 10px
+}
+
+.title-major{
+	font-size: 60px;
+}
+
+.svg-image{
+	width: 100% \9;
+}
