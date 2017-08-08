@@ -16,6 +16,10 @@ body {
   font-family: "zocial", sans-serif;
 }
 
+.hr-rule {
+    border-bottom: 1px solid black;
+}
+
 .logo-img {
 	height: 100px;
 	float: left;
@@ -41,15 +45,15 @@ body {
 	width: 100% \9;
 }
 
-div#social a {
+.social a {
   margin: 0 1em 0 0;
 }
 
-div#social a:last-of-type {
+.social a:last-of-type {
   margin: 0;
 }
 
-div#social {
+.social {
   line-height: 2em;
 }
 
